@@ -37,7 +37,7 @@ class ProductResource extends Resource
                 ->scheme(components: [
                     Forms\Components\FileUpload::make(name: 'image')
                     ->label(label: 'Upload Gambar Produk')
-                    ->placeholder(placeholder: 'Uploads Gambar')
+                    ->placeholder(placeholder: 'Uploads Gambar Product')
                     ->required(),
 
                     //Component Input Judul Produk
